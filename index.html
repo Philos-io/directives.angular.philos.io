@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<base href="/">
+  	<meta charset="utf-8">
+  	<title>Link & Compile: Basics</title>
+</head>
+<body ng-app="app" ng-controller="MainController as main">
+
+
+	<div ng-if="main.display">
+		{{main.display | json}}
+	</div>
+	
+	
+	
+	<script src="node_modules/angular/angular.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.min.js"></script>
+	<script src="index.js">
+	</script>
+</body>
+</html>

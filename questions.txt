@@ -1,0 +1,17 @@
+- which scope?
+- Validation purpose
+- Manipulation of the DOM
+- What is $element?
+- Overload the built-in ngIf?
+- How could you override a built-in directive?
+- rewriting ngIf
+- using watchers
+- Old === new at initialization time
+
+
+
+-----------------------
+Techniques
+-----------------------
+# $parse(express)($scope) //=> $attrs.ngIf
+# $scope.$eval(express) //=> $attrs.ngIf
